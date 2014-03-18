@@ -16,10 +16,9 @@ Email: **ryan@system88.com**
 
 * Rails Controllers + Instance Variables
 * Decent Exposure Overview
-* Decent Exposure - Magic explained
-* Environmental Awareness
+* Decent Exposure Magic explained
 * Configuration
-* Customization (Strategies) 
+* Customization
 * Questions? Comments?
 
 !SLIDE left
