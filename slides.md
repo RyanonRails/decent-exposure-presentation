@@ -16,8 +16,9 @@ Email: **ryan@system88.com**
 
 * Rails Controllers + Instance Variables
 * Decent Exposure Overview
-* Controller Cleanup Example
+* Decent Exposure - Magic explained
 * Environmental Awareness
+* Configuration
 * Customization (Strategies) 
 * Questions? Comments?
 
@@ -51,7 +52,7 @@ _app/views/posts/show.html.erb_
 
 !SLIDE left
 
-## Rails Controllers + Instance Variables
+## Rails Controllers + Instance Variables - Problems
 
 * Breaks encapsulation
 * Set in multiple places (helper, filter, action). Leads to: "where did this come from?" or "what is this?"
@@ -82,7 +83,7 @@ _app/views/posts/show.html.erb_
 
 !SLIDE left
 
-## Decent Exposure Overview
+## Decent Exposure Overview - Rails Scaffold
 
 Rails default scaffold
 <br/>
@@ -141,9 +142,8 @@ end
 
 !SLIDE left
 
-## Decent Exposure Overview cont.
+## Decent Exposure Overview - decent_exposure
 
-decent_exposure controller
 <br/>
 @@@ ruby
 class PeopleController < ApplicationController
